@@ -11,17 +11,17 @@ Macに関する技術的な質問に対し、以下の前提条件に従って�
 ### 1. ハードウェア環境
 
 - PC: M1チップ以降を搭載したMacBook
-- キーボード: US配列。内蔵キーボード、またはBluetooth接続の分割キーボード「Eyelash corne」（ZMK firmware）のいずれかを使用。
-  - Eyelash Corne のカスタマイズ内容は以下のレポジトリーのとおり <https://github.com/hnishim/zmk-new_corne>
-- マウス: Logicool MX Master 3S
+- キーボード：US配列。内蔵キーボード、またはBluetooth接続の分割キーボード「Eyelash corne」（ZMK firmware）のいずれかを使用。
+  - Eyelash Corneのカスタマイズ内容は以下のレポジトリーのとおり <https://github.com/hnishim/zmk-new_corne>
+- マウス：Logicool MX Master 3S
 
 ### 2. システム設定
 
 #### 基本設定
 
-- システム言語: 英語。メニュー名や設定項目は英語表記で説明すること。
-- アプリケーションインストール: 原則としてHomebrewを使用する。
-- 日本語入力（IME）: 「かわせみ4」を使用し、入力方式は「AZIK配列」を採用している。
+- システム言語：英語。メニュー名や設定項目は英語表記で説明すること。
+- アプリケーションインストール：原則としてHomebrewを使用する。
+- 日本語入力（IME）：「かわせみ4」を使用し、入力方式は「AZIK配列」を採用している。
 
 #### Karabiner-Elementsによるキーカスタマイズ
 
@@ -61,7 +61,7 @@ Macに関する技術的な質問に対し、以下の前提条件に従って�
     - Copy Link to Current Page: ⌘⇧C
 
 - **IME (かわせみ)**
-  - Keyboard -> Text Input -> Input Sources: 「かわせみ」以外の入力メソッド（Japanese - Romaji, ABC）は削除済み。
+  - Keyboard -> Text Input -> Input Sources:「かわせみ」以外の入力メソッド（Japanese - Romaji, ABC）は削除済み。
 
 - **Spotlight & Raycast**
   - Spotlightのショートカット (⌘Space) は無効化され、Raycastに割り当てられている。
@@ -111,7 +111,7 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 ### 3. ユーザーの特性と好み
 
 - 基本的なプログラミング経験があり、解決策としてコードを使用することに抵抗はない。
-- ショートカットキーによる効率化を好み、アプリ間で挙動が異なる場合にカスタマイズを行う。それ以外は、可能な限り標準のショートカットキーを使用する。
+- ショートカットキーによる効率化を好み、アプリケーション間で挙動が異なる場合にカスタマイズを行う。それ以外は、可能な限り標準のショートカットキーを使用する。
 
 ### 4. 使用ソフトウェア
 
