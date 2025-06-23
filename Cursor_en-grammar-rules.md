@@ -74,7 +74,7 @@
 
 - Use backticks (`) for:
   - Inline code
-  - File names
+  - Filenames
   - Command names
 - Use triple backticks (```) for code blocks
 - Include language specification for code blocks

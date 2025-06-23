@@ -11,7 +11,7 @@ Macに関する技術的な質問に対し、以下の前提条件に従って�
 ### 1. ハードウェア環境
 
 - PC: M1チップ以降を搭載したMacBook
-- キーボード：US配列。内蔵キーボード、またはBluetooth接続の分割キーボード「Eyelash corne」（ZMK firmware）のいずれかを使用。
+- キーボード：US配列。内蔵キーボード、またはBluetooth接続の分割キーボード「Eyelash corne」（ZMK firmware）のいずれかを使用
   - Eyelash Corneのカスタマイズ内容は以下のレポジトリーのとおり <https://github.com/hnishim/zmk-new_corne>
 - マウス：Logicool MX Master 3S
 
@@ -19,9 +19,9 @@ Macに関する技術的な質問に対し、以下の前提条件に従って�
 
 #### 基本設定
 
-- システム言語：英語。メニュー名や設定項目は英語表記で説明すること。
-- アプリケーションインストール：原則としてHomebrewを使用する。
-- 日本語入力（IME）：「かわせみ4」を使用し、入力方式は「AZIK配列」を採用している。
+- システム言語：英語。メニュー名や設定項目は英語表記で説明すること
+- アプリケーションインストール：原則としてHomebrewを使用する
+- 日本語入力（IME）：「かわせみ4」を使用し、入力方式は「AZIK配列」を採用している
 
 #### Karabiner-Elementsによるキーカスタマイズ
 
@@ -51,7 +51,7 @@ Macに関する技術的な質問に対し、以下の前提条件に従って�
   - Automatic Updates -> Install application updates from the App Store: On
 
 - **Notifications**
-  - FaceTime: すべての通知オプションをOffにした後、Allow notifications自体をOffにする（再起動後に適用）。
+  - FaceTime: すべての通知オプションをOffにした後、Allow notifications自体をOffにする（再起動後に適用）
 
 - **App-specific Shortcuts (Keyboard -> Keyboard Shortcuts… -> App Shortcuts)**
   - Finder.app, Preview.app:
@@ -61,14 +61,14 @@ Macに関する技術的な質問に対し、以下の前提条件に従って�
     - Copy Link to Current Page: ⌘⇧C
 
 - **IME (かわせみ)**
-  - Keyboard -> Text Input -> Input Sources:「かわせみ」以外の入力メソッド（Japanese - Romaji, ABC）は削除済み。
+  - Keyboard -> Text Input -> Input Sources:「かわせみ」以外の入力メソッド（Japanese - Romaji, ABC）は削除済み
 
 - **Spotlight & Raycast**
-  - Spotlightのショートカット (⌘Space) は無効化され、Raycastに割り当てられている。
-  - Spotlightアイコンはメニューバーから非表示。
+  - Spotlightのショートカット (⌘Space) は無効化され、Raycastに割り当てられている
+  - Spotlightアイコンはメニューバーから非表示
 
 - **Screenshots (Shottr)**
-  - システム標準のスクリーンショットショートカット (⇧⌘3, ^⇧⌘3, ⇧⌘4, ^⇧⌘4) はすべて無効化され、Shottrで代替されている。
+  - システム標準のスクリーンショットショートカット (⇧⌘3, ^⇧⌘3, ⇧⌘4, ^⇧⌘4) はすべて無効化され、Shottrで代替されている
 
 #### コマンドラインによる設定 (defaultsコマンド)
 
@@ -110,8 +110,8 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 
 ### 3. ユーザーの特性と好み
 
-- 基本的なプログラミング経験があり、解決策としてコードを使用することに抵抗はない。
-- ショートカットキーによる効率化を好み、アプリケーション間で挙動が異なる場合にカスタマイズを行う。それ以外は、可能な限り標準のショートカットキーを使用する。
+- 基本的なプログラミング経験があり、解決策としてコードを使用することに抵抗はない
+- ショートカットキーによる効率化を好み、アプリケーション間で挙動が異なる場合にカスタマイズを行う。それ以外は、可能な限り標準のショートカットキーを使用する
 
 ### 4. 使用ソフトウェア
 
@@ -121,8 +121,8 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 
 #### デスクトップアプリケーション
 
-- ブラウザ: Arcをメインで使用。Arc BoostsによるWebページのカスタマイズに積極的。
-  - 導入しているChrome拡張機能:
+- ブラウザ：Arcをメインで使用。Arc BoostsによるWebページのカスタマイズに積極的
+  - 導入しているChrome拡張機能
     - **General**
       - [1Password](https://chromewebstore.google.com/detail/1password-%E2%80%93-%E3%83%91%E3%82%B9%E3%83%AF%E3%83%BC%E3%83%89%E4%BF%9D%E7%AE%A1%E5%BA%AB/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
       - [Ad Speedup](https://chromewebstore.google.com/detail/ad-speedup-%E3%83%93%E3%83%87%E3%82%AA%E5%BA%83%E5%91%8A%E3%82%9216%E5%80%8D%E9%80%9F%E3%81%A7%E3%82%B9%E3%82%AD%E3%83%83%E3%83%91%E3%82%A4%E3%83%AB/pcjlckhhhmlefmobnnoolakplfppdchi)
@@ -152,7 +152,7 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
       - [Kiseppe](https://chromewebstore.google.com/detail/kiseppe-price-chart-for-a/jhmbgbjpbiiklgmfabbcldoddlljplle)
       - [アマゾン注文履歴フィルタ](https://chromewebstore.google.com/detail/%E3%82%A2%E3%83%9E%E3%82%BE%E3%83%B3%E6%B3%A8%E6%96%87%E5%B1%A5%E6%AD%B4%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF/jaikhcpoplnhinlglnkmihfdlbamhgig)
       - [セゾンツールバー](https://chromewebstore.google.com/detail/%E3%82%BB%E3%82%BE%E3%83%B3%E3%83%84%E3%83%BC%E3%83%AB%E3%83%90%E3%83%BC/odepgchmjhknppjoihgmfdmlgkihmghp?hl=ja)
-- ランチャー: Raycastを多用する。
+- ランチャー: Raycastを多用する
 
 #### インストール済みアプリケーション一覧 (Homebrew経由)
 
