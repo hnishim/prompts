@@ -12,7 +12,7 @@ Macに関する技術的な質問に対し、以下の前提条件に従って�
 
 - PC: M1チップ以降を搭載したMacBook
 - キーボード：US配列。内蔵キーボード、またはBluetooth接続の分割キーボード「Eyelash corne」（ZMK firmware）のいずれかを使用
-  - Eyelash Corneのカスタマイズ内容は以下のレポジトリーのとおり <https://github.com/hnishim/zmk-new_corne>
+  - Eyelash Corne のカスタマイズ内容は以下のレポジトリーのとおり<https://github.com/hnishim/zmk-new_corne>
 - マウス：Logicool MX Master 3S
 
 ### 2. システム設定
@@ -124,8 +124,8 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 - ブラウザ：Arcをメインで使用。Arc BoostsによるWebページのカスタマイズに積極的
   - 導入しているChrome拡張機能
     - **General**
-      - [1Password](https://chromewebstore.google.com/detail/1password-%E2%80%93-%E3%83%91%E3%82%B9%E3%83%AF%E3%83%BC%E3%83%89%E4%BF%9D%E7%AE%A1%E5%BA%AB/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
-      - [Ad Speedup](https://chromewebstore.google.com/detail/ad-speedup-%E3%83%93%E3%83%87%E3%82%AA%E5%BA%83%E5%91%8A%E3%82%9216%E5%80%8D%E9%80%9F%E3%81%A7%E3%82%B9%E3%82%AD%E3%83%83%E3%83%91%E3%82%A4%E3%83%AB/pcjlckhhhmlefmobnnoolakplfppdchi)
+      - [1Password](https://chromewebstore.google.com/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+      - [Ad Speedup](https://chromewebstore.google.com/detail/ad-speedup-skip-video-ads/pcjlckhhhmlefmobnnoolakplfppdchi)
       - [AI Grammar Checker & Paraphraser – LanguageTool](https://chromewebstore.google.com/detail/ai-grammar-checker-paraph/oldceeleldhonbafppcapldpdifcinji)
       - [Enter Key Control for ChatGPT, Claude.ai, Google Gemini](https://chromewebstore.google.com/detail/enter-key-control-for-cha/nllncjgkdkcabkomghcfgfaplgdnlcjo)
       - [Google Search Keyboard Shortcuts](https://chromewebstore.google.com/detail/google-search-keyboard-sh/iobmefdldoplhmonnnkchglfdeepnfhd)
@@ -135,7 +135,7 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
       - [Raycast Companion](https://chromewebstore.google.com/detail/raycast-companion/fgacdjnoljjfikkadhogeofgjoglooma)
       - [Search Result Preview](https://chromewebstore.google.com/detail/search-result-previews/cedcejfiniojnlhlfhcppenochinijfo)
       - [Shortcut Click](https://chromewebstore.google.com/detail/shortcut-click/jhmecpjngghgimacbfbajlpmcimnfihl)
-        - NotebookLM の送信ボタンに `⌘ ⏎` を割り当てる
+        - NotebookLMの送信ボタンに`⌘ ⏎`を割り当てる
       - [Superagent](https://chromewebstore.google.com/detail/superagent-automatic-cook/neooppigbkahgfdhbpbhcccgpimeaafi)
       - [Turn Off the Light](https://chromewebstore.google.com/detail/turn-off-the-lights/bfbmjmiodbnnpllbbbfblcplfjjepjdn)
       - [uBlock Origin](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
@@ -146,7 +146,7 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
       - [Safety for Gmail](https://chromewebstore.google.com/detail/safety-for-gmail/pjbnfpohnepfohjeklbpeekacpellded)
       - [Save as Shortcut](https://chromewebstore.google.com/detail/save-as-shortcut/flehofiklehmnnolpjcamplcnmhgcbkk)
     - **🙍‍♂️ Only for Personal**
-      - [Amazon URL Shortener](https://chromewebstore.google.com/detail/Amazon%20URL%20Shortener/bonkcfmjkpdnieejahndognlbogaikdg)
+      - [Amazon URL Shortener](https://chromewebstore.google.com/detail/amazon-url-shortener/bonkcfmjkpdnieejahndognlbogaikdg)
       - [Amazon Wishlist point](https://chromewebstore.google.com/detail/amazon-wishlist-point/mffnibnldlmhmagdjiihbmjffpdmjlmn)
       - [Keepa](https://chromewebstore.google.com/detail/keepa-amazon-price-tracke/neebplgakaahbhdphmkckjjcegoiijjo)
       - [Kiseppe](https://chromewebstore.google.com/detail/kiseppe-price-chart-for-a/jhmbgbjpbiiklgmfabbcldoddlljplle)
@@ -157,113 +157,58 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 #### インストール済みアプリケーション一覧 (Homebrew経由)
 
 ```bash
-
 # Core
-
 brew install mas
-
 brew install languagetool
-
 brew install cliclick
 
-
-
 # Communication
-
 brew install --cask slack
-
 brew install --cask zoom
-
 brew install --cask microsoft-teams
-
 brew install --cask krisp
-
 brew install --cask deskpad
-
 brew install --cask muteme
 
-
-
 # Productivity & Writing
-
 brew install --cask grammarly-desktop
-
 brew install --cask deepl
-
 brew install --cask microsoft-powerpoint
-
 brew install --cask microsoft-excel
-
 brew install --cask microsoft-word
-
 brew install --cask microsoft-auto-update
-
 brew install --cask google-drive
-
 brew install --cask notion
-
 brew install --cask miro
-
 brew install --cask obsidian
-
 brew install --cask evernote
 
-
-
 # Development & Terminal
-
 brew install --cask warp
-
 brew install --cask cursor
 
-
-
 # Utilities
-
 brew install --cask logi-options-plus
-
 brew install --cask fujitsu-scansnap-home
-
 brew install --cask raycast
-
 brew install --cask karabiner-elements
-
 brew install --cask jordanbaird-ice
-
 brew install --cask swift-quit
-
 brew install --cask pearcleaner
-
 brew install --cask battery
-
 brew install --cask 1password
-
 brew install --cask iina
-
 brew install --cask shottr
 
-
-
 # Browser
-
 brew install --cask arc
 
-
-
 # Fonts
-
 brew install --cask font-ibm-plex-sans-jp
 
-
-
 # Mac App Store
-
 mas install 302584613  # かわせみ4
-
 mas install 1448916662 # RunCat
-
 mas install 1380563956 # DeskPad
-
 mas install 1339041727 # MuteMe for FaceTime
-
 ```
