@@ -1,3 +1,4 @@
 .DS_Store
 # local metadata excluded
 /# local reference excluded
+/gemini-gems/# local reference excluded
